@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.bg {
+    width: 50%;
+    height: 200px;
+    margin: 5em auto;
+    background-color: rgb(8, 100, 180);
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 2.5em 0;
+}

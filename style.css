@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: rgba(17, 255, 0, 0.868);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(221, 217, 217);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .3em 1.5em 0em;
+}
+
+nav ul {
+    margin-right: 2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1.2em 1em;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(107, 107, 109);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: rgb(253, 0, 0);
+    transition: 0.3s;
+}
+
+/*start header main section*/
+
+.container{
+    width: 100%;
+    display: flex;
+    background-color: rgb(221, 217, 217);
+}
+
+.bio {
+    width: 60%;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.bio h2 {
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+.bio p {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.seacrh-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5em 0em;
+}
+
+.seacrh-container form { 
+    height: 35px;
+    display: flex;
+}
+
+form input {
+    width: 300px;
+    position: relative;
+    border: 1px solid gray;
+    padding: 0 1em;
+    border-radius: 25px;
+}
+
+form button {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 35%;
+    border: none;
+    background-color: rgb(161, 160, 160);
+    border-radius: 0px 25px 25px 0px;
+    transition: 0.5s;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+
+.photo {
+    width: 30%;
+    background-color: rgba(99, 248, 7, 0.555);
+    margin: 3em;
+    text-align: center;
+    border-radius: 150px 0px ;
+    box-shadow: 0px 4px 6px rgb(161, 161, 161);
+}
+
+.photo img {
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: width 0.3s ease-in-out;
+}
+
+.photo img:hover {
+    width: 110%;
+}
+
+/*start about section*/
+
+.about {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin: 5em 0;
+}
+
+.picture {
+    width: 60%;
+    text-align: center;
+}
+
+.picture img {
+    width: 250px;
+    height: auto;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 20px  gray;
+    transition: width 0.2s ease-in-out;
+}
+
+.picture img:hover {
+    width: 300px;
+}
+
+
+hr {
+    width: 150px;
+}
+
+.deteils {
+    width: 40%;
+    height: 360px;
+    box-sizing: border-box;
+    margin: 0 3em;
+}
+
+.deteils h3 {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.d {
+    padding-top: 2em;
+    line-height: 1.5;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+/*start card section*/
+
+.card-container {
+    width: 100%;
+    display: flex;
+}
+
+.service {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.service-hr {
+    margin: 0 auto;
+}
+
+.card1 {
+    width: 25%;
+    background-color: rgb(221, 217, 217);
+    margin: 0 auto;
+    margin-top: 3em;
+    text-align: center;
+    border-radius: 30px;
+    transition: .2s ease-in-out;
+}
+
+.card1:hover {
+    background-color: none;
+    box-shadow: 3px 3px 16px gray;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.p {
+    margin: 1em 2.5em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#js, #power {
+    width: 45px;
+    margin-top: 12px;
+}
+
+/*my work section*/
+
+.work {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.work-hr {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.work-container {
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    margin: 2em auto;
+    background-color: rgb(221, 217, 217);
+}
+
+.perent {
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 1.2em 0.4rem;
+    box-shadow: 3px 6px 3px #969393;
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.perent:hover .child {
+    transform: scale(1.2);
+}
+
+.bg1 {
+    background-image: url(./assets/image1.png);
+}
+
+.bg2 {
+    background-image: url(./assets/image2.png);
+}
+
+.bg3 {
+    background-image: url(./assets/image3.png);
+}
+
+.bg4 {
+    background-image: url(./assets/image4.png);
+}
+
+.bg5 {
+    background-image: url(./assets/image5.png);
+}
+
+.bg6 {
+    background-image: url(./assets/image6.png);
+}
+
+
+/*my skill section*/
+
+.skill {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.skill-hr {
+    width: 110px;
+    margin: 0 auto;
+}
+
+.skill-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 1em;
+}
+
+.skill-perent {
+    width: 40%;
+    height: auto;
+    margin: 3em auto;
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    text-align: right;
+    padding-top: 1em;
+}
+
+.proggres-ber {
+    width: 100%;
+    height: auto;
+    margin: 2.5em 0;
+    position: relative;
+}
+
+.proggres-ber1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(248, 77, 77);
+}
+
+.proggres-ber1::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(134, 6, 6);
+}
+
+
+.proggres-ber2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(248, 77, 77);
+}
+
+.proggres-ber2::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(134, 6, 6);
+}
+
+.proggres-ber3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(248, 77, 77);
+}
+
+.proggres-ber3::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(134, 6, 6);
+}
+
+.proggres-ber4::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(248, 77, 77);
+}
+
+.proggres-ber4::after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color: rgb(134, 6, 6);
+}
+
+/*my skill section*/
+
+.footer-container{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    color: white;
+}
+
+.ft {
+    margin: 2em 2em;
+   cursor: pointer;
+}
+
+.first-details {
+    width: 30%;
+    margin: 2em 1em;
+}
+
+.sub-footer {
+    display: flex;
+    margin-left: 8em;
+}
+
+.footer-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0.7em;
+}
+
+.footer-title:hover {
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social-icon {
+    margin-top: 0.4em;
+}
+
+#facebook {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon i {
+    margin-left: 0.5em;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+.social-icon i:hover {
+    color: red;
+    transition: 0.8s;
+}
+
+.copyright {
+    text-align: center;
+    overflow: hidden;
+    margin: 1em 0;
+    padding: 0;
+    color: white;
+}
+
+.footer p {
+    padding-top: 0.2em;
+}
+
+.footer p:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+#footer-hr1 {
+    width: 80px;
+    opacity: 30%;
+}
+
+#footer-hr2 {
+    width: 50px;
+    opacity: 30%;
+}
+
+#footer-hr3 {
+    width: 100px;
+    opacity: 30%;
+}
+
+#footer-hr4 {
+    width: 30px;
+    opacity: 30%;
+}
+
+#footer-hr5 {
+    width: 40px;
+    opacity: 30%;
+}
+
+#footer-hr6 {
+    width: 103px;
+    opacity: 30%;
+}
+
+#footer-hr7 {
+    width: 60px;
+    opacity: 30%;
+}
+
+#footer-hr8 {
+    width: 45px;
+    opacity: 30%;
+}
+
+#footer-hr9 {
+    width: 40px;
+    opacity: 30%;
+}
+
+#footer-hr10 {
+    width: 60px;
+    opacity: 30%;
+}
+
+#footer-hr11 {
+    width: 90px;
+    opacity: 30%;
+}
+
+#footer-hr12 {
+    width: 90px;
+    opacity: 30%;
+}
+
+#footer-hr13 {
+    width: 80px;
+    opacity: 30%;
+}
